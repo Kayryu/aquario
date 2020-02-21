@@ -38,6 +38,11 @@ pub use frame_support::{
 };
 
 
+mod token;
+mod cdp;
+mod oracle;
+mod auction;
+
 /// An index to a block.
 pub type BlockNumber = u32;
 

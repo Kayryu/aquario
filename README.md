@@ -1,5 +1,7 @@
 # Aquario node
 
+Aquario is a stable coin developed based on substrate inspired by MarkerDAO.
+
 ## Build
 
 Rust version > 1.41
