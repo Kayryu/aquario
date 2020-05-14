@@ -19,15 +19,15 @@ pub enum CdpAction {
 }
 
 pub struct CollateralProperty {
-    pub liquidation_ratio: Amount;
-    pub liquidation_penalty: Amount;
-    pub debit_ceiling: Amount;
-    pub stability_fee: Amount;
+    pub liquidation_ratio: Amount,
+    pub liquidation_penalty: Amount,
+    pub debit_ceiling: Amount,
+    pub stability_fee: Amount,
 }
 
 pub struct CDP<AccountId> {
-    pub id: u64
-    pub pawn: Vec<u8>
+    pub id: u64,
+    pub pawn: Vec<u8>,
     pub owner: AccountId,
     pub pawn_amount: Amount,
     pub debit_amount: Amount,

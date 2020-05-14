@@ -62,6 +62,5 @@ decl_module! {
             CdpOf::remove(id);
         }
 
-        pub fn 
     }
 }
